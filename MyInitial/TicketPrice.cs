@@ -16,8 +16,13 @@ namespace Ticketing
         const decimal mdecBalcony = 35.5m;
         const decimal mdecGeneral = 28.75m;
         const decimal mdecBox = 62.0m;
+<<<<<<< HEAD
         const decimal mdecDiscount = 5.0m;
         const decimal mdecBackStall = 15.0m;
+=======
+        const decimal mdecDiscount = 10.0m;
+        const decimal mdecChild = 10.0m;
+>>>>>>> feat1.2_discount_type
 
         private int Section
         {
@@ -67,7 +72,11 @@ namespace Ticketing
                  mPrice = mdecBox;
                  break;
                 case 4:
+<<<<<<< HEAD
                     mPrice = mdecBackStall;
+=======
+                    mPrice = mdecChild;
+>>>>>>> feat1.2_discount_type
                     break;
          }
          if (discount)
